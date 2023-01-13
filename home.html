@@ -49,16 +49,25 @@
                         </a>
                         <div class="dropdown-menu">
                           <a class="dropdown-item" data-toggle="modal" data-target="#exampleModalMs">Item</a>
-                          <a class="dropdown-item" data-toggle="modal" data-target="#exampleModalMs">Another action</a>
-                          <a class="dropdown-item" href="#">Something else here</a>
+                          <a class="dropdown-item" data-toggle="modal" data-target="#exampleModalMs">Categories</a>
+                          <a class="dropdown-item" href="#">Parts Catalog</a>
+                          <a class="dropdown-item" href="#">Product Makers</a>
+                          <a class="dropdown-item" href="#">Brand</a>
                         </div>
                       </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Customers</a>
-                    </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                          Customer
+                        </a>
+                        <div class="dropdown-menu">
+                          <a class="dropdown-item" data-toggle="modal" data-target="#exampleModalMs">Customer List</a>
+                          <a class="dropdown-item" data-toggle="modal" data-target="#exampleModalMs">Customer Address</a>
+                          <a class="dropdown-item" href="#">Customer Contact</a>
+                        </div>
+                      </li>
                 </ul>
                 <div class="d-flex user-logged">
-                    <a href="#">
+                    <a href="index.html">
                         Halo, Beatrice!
                         <img src="/images/user_photo.png" class="user-photo" alt="">
                     </a>
@@ -318,10 +327,19 @@
               </button>
             </div>
             <div class="modal-footer">
+                <div class="row">
+                    <div class="col">
+                        <form class="form-inline basic-form my-2 my-lg-0">
+                            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                          </form>
+                    </div>
+                    <div class="col">
                 <button type="button" class="btn btn-primary"
                 data-toggle="modal" data-dismiss="modal" aria-label="Close" data-target="#exampleModalXl"
                 >
                     Add User</button>
+              </div>
+              </div>
               </div>
             <div class="modal-body p-5">
                 <table class="table">
@@ -361,18 +379,18 @@
                         </tr>
                         <tr class="align-middle">
                             <td width="13%">
-                                <img src="images/beatrice.png" height="90" alt="">
+                                <img src="images/fanny_photo.png" height="90" alt="">
                             </td>
                             <td>
                                 <p class="mb-2">
-                                    <strong>Mawar Eva</strong>
+                                    <strong>Fanny</strong>
                                 </p>
                                 <p>
-                                    mawar@diesel.co.id
+                                    fanny@diesel.co.id
                                 </p>
                             </td>
                             <td>
-                                <strong>Overseas Purchasing Officer </strong>
+                                <strong>Purchasing Section Head </strong>
                             </td>
                             <td>
                                  <small><strong>Sun, 9 Oct 2022 - 15:16</strong></small>
@@ -394,18 +412,18 @@
                         </tr>
                         <tr class="align-middle">
                             <td width="13%">
-                                <img src="images/beatrice.png" height="90" alt="">
+                                <img src="images/angga.png" height="90" alt="">
                             </td>
                             <td>
                                 <p class="mb-2">
-                                    <strong>Mawar Eva</strong>
+                                    <strong>Angga</strong>
                                 </p>
-                                <p>
-                                    mawar@diesel.co.id
+                                <p> 
+                                    angga@diesel.co.id
                                 </p>
                             </td>
                             <td>
-                                <strong>Overseas Purchasing Officer </strong>
+                                <strong>Sales Division Head </strong>
                             </td>
                             <td>
                                  <small><strong>Sun, 9 Oct 2022 - 15:16</strong></small>
@@ -427,18 +445,84 @@
                         </tr>
                         <tr class="align-middle">
                             <td width="13%">
-                                <img src="images/beatrice.png" height="90" alt="">
+                                <img src="images/icon-testimonial-1.png" height="90" alt="">
                             </td>
                             <td>
                                 <p class="mb-2">
-                                    <strong>Mawar Eva</strong>
+                                    <strong>Alya</strong>
                                 </p>
                                 <p>
-                                    mawar@diesel.co.id
+                                    alya@diesel.co.id
                                 </p>
                             </td>
                             <td>
-                                <strong>Overseas Purchasing Officer </strong>
+                                <strong>SCM Division Head </strong>
+                            </td>
+                            <td>
+                                 <small><strong>Sun, 9 Oct 2022 - 15:16</strong></small>
+                            </td>
+                            <td>
+                                <div class="row">
+                                    <div class="col">
+                                        <a href="#" class="btn btn-primary btn-sm">
+                                            Delete
+                                        </a>
+                                    </div>
+                                    <div class="col">
+                                        <a href="#" class="btn btn-primary btn-sm">
+                                            Edit
+                                        </a>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="align-middle">
+                            <td width="13%">
+                                <img src="images/icon-testimonial-2.png" height="90" alt="">
+                            </td>
+                            <td>
+                                <p class="mb-2">
+                                    <strong>Yanti</strong>
+                                </p>
+                                <p>
+                                    yanti@diesel.co.id
+                                </p>
+                            </td>
+                            <td>
+                                <strong>Sales Support </strong>
+                            </td>
+                            <td>
+                                 <small><strong>Sun, 9 Oct 2022 - 15:16</strong></small>
+                            </td>
+                            <td>
+                                <div class="row">
+                                    <div class="col">
+                                        <a href="#" class="btn btn-primary btn-sm">
+                                            Delete
+                                        </a>
+                                    </div>
+                                    <div class="col">
+                                        <a href="#" class="btn btn-primary btn-sm">
+                                            Edit
+                                        </a>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="align-middle">
+                            <td width="13%">
+                                <img src="images/icon-testimonial-3.png" height="90" alt="">
+                            </td>
+                            <td>
+                                <p class="mb-2">
+                                    <strong>Puan</strong>
+                                </p>
+                                <p>
+                                    puan@diesel.co.id
+                                </p>
+                            </td>
+                            <td>
+                                <strong>Sales Executive </strong>
                             </td>
                             <td>
                                  <small><strong>Sun, 9 Oct 2022 - 15:16</strong></small>
@@ -476,10 +560,16 @@
               </button>
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-primary"
-                data-toggle="modal" data-dismiss="modal" aria-label="Close" data-target="#exampleModalLg"
-                >
-                    Add Item</button>
+                <div class="row">
+                    <div class="col">
+                        <form class="form-inline basic-form my-2 my-lg-0">
+                            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                          </form>
+                    </div>
+                    <div class="col">
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-dismiss="modal" aria-label="Close" data-target="#exampleModalLg">Add Item</button>
+                    </div>
+                </div>
               </div>
             <div class="modal-body p-5">
                 <div class="row">
@@ -488,14 +578,42 @@
                             <tbody>
                                 <tr class="align-middle">
                                     <td width="20%">
-                                        <img src="/truck.jpg" height="120" alt="">
+                                        <img src="images/shock.jpg" height="120" alt="">
                                     </td>
                                     <td>
                                         <p class="mb-2">
-                                            <strong>AIR BRAKE SYSTEM</strong>
+                                            <strong>Shock Absorber</strong>
                                         </p>
                                         <p>
-                                            VALVE AIR DRYER
+                                            Shock
+                                        </p>
+                                    </td>
+                                    <td>
+                                        <div class="row">
+                                            <div class="col">
+                                                <a href="#" class="">
+                                                    Delete
+                                                </a>
+                                            </div>
+                                            <div class="col">
+                                                <a href="#" class="">
+                                                    Edit
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+             
+                                <tr class="align-middle">
+                                    <td width="20%">
+                                        <img src="images/spring.jpg" height="120" alt="">
+                                    </td>
+                                    <td>
+                                        <p class="mb-2">
+                                            <strong>Spring DPIA Truck</strong>
+                                        </p>
+                                        <p>
+                                            Spring
                                         </p>
                                     </td>
                                     <td>
@@ -515,14 +633,14 @@
                                 </tr>
                                 <tr class="align-middle">
                                     <td width="20%">
-                                        <img src="/truck.jpg" height="120" alt="">
+                                        <img src="images/bolt.jpg" height="120" alt="">
                                     </td>
                                     <td>
                                         <p class="mb-2">
-                                            <strong>AIR BRAKE SYSTEM</strong>
+                                            <strong>Bolt Join</strong>
                                         </p>
                                         <p>
-                                            VALVE AIR DRYER
+                                            Bolt
                                         </p>
                                     </td>
                                     <td>
@@ -542,14 +660,41 @@
                                 </tr>
                                 <tr class="align-middle">
                                     <td width="20%">
-                                        <img src="/truck.jpg" height="120" alt="">
+                                        <img src="images/transmission.jpg" height="120" alt="">
                                     </td>
                                     <td>
                                         <p class="mb-2">
-                                            <strong>AIR BRAKE SYSTEM</strong>
+                                            <strong>transmission</strong>
                                         </p>
                                         <p>
-                                            VALVE AIR DRYER
+                                            Drivetrain
+                                        </p>
+                                    </td>
+                                    <td>
+                                        <div class="row">
+                                            <div class="col">
+                                                <a href="#" class="">
+                                                    Delete
+                                                </a>
+                                            </div>
+                                            <div class="col">
+                                                <a href="#" class="">
+                                                    Edit
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr class="align-middle">
+                                    <td width="20%">
+                                        <img src="images/brake_power.webp" height="120" alt="">
+                                    </td>
+                                    <td>
+                                        <p class="mb-2">
+                                            <strong>Brake Power</strong>
+                                        </p>
+                                        <p>
+                                            Brake
                                         </p>
                                     </td>
                                     <td>
@@ -575,11 +720,11 @@
                             <tbody>
                                 <tr class="align-middle">
                                     <td width="20%">
-                                        <img src="/truck.jpg" height="120" alt="">
+                                        <img src="images/air brake system.jfif" height="120" alt="">
                                     </td>
                                     <td>
                                         <p class="mb-2">
-                                            <strong>FILTER AIR DRYER</strong>
+                                            <strong>Air Brake System</strong>
                                         </p>
                                         <p>
                                             VALVE AIR DRYER
@@ -602,14 +747,14 @@
                                 </tr>
                                 <tr class="align-middle">
                                     <td width="20%">
-                                        <img src="/truck.jpg" height="120" alt="">
+                                        <img src="images/transmission.jpg" height="120" alt="">
                                     </td>
                                     <td>
                                         <p class="mb-2">
-                                            <strong>FILTER AIR DRYER</strong>
+                                            <strong>transmission</strong>
                                         </p>
                                         <p>
-                                            VALVE AIR DRYER
+                                            Drivetrain
                                         </p>
                                     </td>
                                     <td>
@@ -629,14 +774,68 @@
                                 </tr>
                                 <tr class="align-middle">
                                     <td width="20%">
-                                        <img src="/truck.jpg" height="120" alt="">
+                                        <img src="images/brake.jpg" height="120" alt="">
                                     </td>
                                     <td>
                                         <p class="mb-2">
-                                            <strong>FILTER AIR DRYER</strong>
+                                            <strong>Disc Brake</strong>
                                         </p>
                                         <p>
-                                            VALVE AIR DRYER
+                                            Brake
+                                        </p>
+                                    </td>
+                                    <td>
+                                        <div class="row">
+                                            <div class="col">
+                                                <a href="#" class="">
+                                                    Delete
+                                                </a>
+                                            </div>
+                                            <div class="col">
+                                                <a href="#" class="">
+                                                    Edit
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr class="align-middle">
+                                    <td width="20%">
+                                        <img src="images/shock.jpg" height="120" alt="">
+                                    </td>
+                                    <td>
+                                        <p class="mb-2">
+                                            <strong>Shock Absorber</strong>
+                                        </p>
+                                        <p>
+                                            Shock
+                                        </p>
+                                    </td>
+                                    <td>
+                                        <div class="row">
+                                            <div class="col">
+                                                <a href="#" class="">
+                                                    Delete
+                                                </a>
+                                            </div>
+                                            <div class="col">
+                                                <a href="#" class="">
+                                                    Edit
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr class="align-middle">
+                                    <td width="20%">
+                                        <img src="images/bolt.jpg" height="120" alt="">
+                                    </td>
+                                    <td>
+                                        <p class="mb-2">
+                                            <strong>Bolt Join</strong>
+                                        </p>
+                                        <p>
+                                            Bolt
                                         </p>
                                     </td>
                                     <td>
