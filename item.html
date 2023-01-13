@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Item</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<style>
+ 
+</style>
+    <body>
+        <div class="navbar">
+            <a href="#home">Home</a>
+            <a href="#news">Profile</a>
+            <div class="dropdown">
+                <button class="dropbtn">User Management
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a open-modal="true" modal-id="example">Users</a>
+                    <a href="#">User Role</a>
+                    <a href="#">User Activity</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn"> General
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="#">Item</a>
+                    <a href="#">Brands</a>
+                    <a href="#">Model</a>
+                    <a href="#">Categories</a>
+                    <a href="#">Part Catalog</a>
+                    <a href="#">Product Market</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn"> Customers
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="#">Customers List</a>
+                    <a href="#">Customers Address</a>
+                    <a href="#">Customers Contact</a>
+                </div>
+            </div>
+        </div>
+        <!-- end navbar -->
+        <div style="background-color: whitesmoke;">
+            <div class="inner_modal">
+                <div class="modal_content">
+                    <div class="container">
+                       
+                        <style>
+                            .cards {
+                              display: flex;
+                              margin-top: 22px;
+                              flex-wrap: wrap;
+                              padding: 10px;
+                              align-items: stretch;
+                            }
+                            .card {
+                              flex: 100px;
+                              margin: 10px;
+                              border: 1px solid #ccc;
+                              box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+                            } 
+                            .card img {
+                              max-width: 100%;
+                            }
+                            .card .text {
+                              padding: 0 20px 20px;
+                            }
+                            .card .text > button {
+                              background: gray;
+                              border: 0;
+                              color: white;
+                              padding: 10px;
+                              width: 100%;
+                              }
+                              .styled-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+.styled-table thead tr {
+    background-color: blue;
+    color: #ffffff;
+    text-align: left;
+}
+
+
+                          </style>
+                          
+                          <main class="cards">
+                            <article class="card">
+                              <img src="https://www.shutterstock.com/image-photo/black-air-tank-truck-100-260nw-1024643062.jpg" alt="Sample photo">
+                              <div class="text">
+                                <table class="styled-table">
+                                  <thead>
+                                      <tr>
+                                          <th></th>
+                                          <th></th>
+                                          <th></th>
+                                      </tr>
+                                  </thead>
+                                  <tbody>
+                                    <tr>
+                                      <td class="w-150px p-1">Part Number</td>
+                                      <td class="w-10px p-1">:</td>
+                                      <td class="fw-bold text-end p-1">000000000528</td>
+                                  </tr>
+                                  <tr>
+                                    <td class="w-150px p-1">Manufacturer Number</td>
+                                    <td class="w-10px p-1">:</td>
+                                    <td class="fw-bold text-end p-1">2052</td>
+                                </tr>
+                                <tr>
+                                  <td class="w-150px p-1">Product Maker</td>
+                                  <td class="w-10px p-1">:</td>
+                                  <td class="fw-bold text-end p-1">N/A</td>
+                              </tr>
+                              <tr>
+                                <td class="w-150px p-1">Brand</td>
+                                <td class="w-10px p-1">:</td>
+                                <td class="fw-bold text-end p-1">BIRTH</td>
+                            </tr><tr>
+                                <td class="w-150px p-1">Category</td>
+                                <td class="w-10px p-1">:</td>
+                                <td class="fw-bold text-end p-1">AIR BRAKE SYSTEM</td>
+                            </tr><tr>
+                                <td class="w-150px p-1">Sub Category</td>
+                                <td class="w-10px p-1">:</td>
+                                <td class="fw-bold text-end p-1">VALVE AIR DRYER</td>
+                            </tr><tr>
+                                <td class="w-150px p-1">Item Name</td>
+                                <td class="w-10px p-1">:</td>
+                                <td class="fw-bold text-end p-1">FILTER AIR DRYER</td>
+                            </tr><tr>
+                                <td class="w-150px p-1">SKU</td>
+                                <td class="w-10px p-1">:</td>
+                                <td class="fw-bold text-end p-1">CI BO</td>
+                            </tr><tr>
+                                <td class="w-150px p-1">Status</td>
+                                <td class="w-10px p-1">:</td>
+                                <td class="fw-bold text-end p-1">NONE</td>
+                            </tr>
+                                      <!-- and so on... -->
+                                  </tbody>
+                              </table>
+                              </div>
+                            </article>
+                            <article class="card">
+                              <img src="https://frendioriginal.com/cdn/tenants/0/blog/30/brake-system-types-and-hydraulic-brake-parts-and-functions-3.png" alt="Sample photo">
+                              <div class="text">
+                                <table class="styled-table">
+                                  <thead>
+                                      <tr>
+                                          <th></th>
+                                          <th></th>
+                                          <th></th>
+                                      </tr>
+                                  </thead>
+                                  <tbody>
+                                    <tr>
+                                      <td class="w-150px p-1">Part Number</td>
+                                      <td class="w-10px p-1">:</td>
+                                      <td class="fw-bold text-end p-1">000000000528</td>
+                                  </tr>
+                                  <tr>
+                                    <td class="w-150px p-1">Manufacturer Number</td>
+                                    <td class="w-10px p-1">:</td>
+                                    <td class="fw-bold text-end p-1">2052</td>
+                                </tr>
+                                <tr>
+                                  <td class="w-150px p-1">Product Maker</td>
+                                  <td class="w-10px p-1">:</td>
+                                  <td class="fw-bold text-end p-1">N/A</td>
+                              </tr>
+                              <tr>
+                                <td class="w-150px p-1">Brand</td>
+                                <td class="w-10px p-1">:</td>
+                                <td class="fw-bold text-end p-1">BIRTH</td>
+                            </tr><tr>
+                                <td class="w-150px p-1">Category</td>
+                                <td class="w-10px p-1">:</td>
+                                <td class="fw-bold text-end p-1">AIR BRAKE SYSTEM</td>
+                            </tr><tr>
+                                <td class="w-150px p-1">Sub Category</td>
+                                <td class="w-10px p-1">:</td>
+                                <td class="fw-bold text-end p-1">VALVE AIR DRYER</td>
+                            </tr><tr>
+                                <td class="w-150px p-1">Item Name</td>
+                                <td class="w-10px p-1">:</td>
+                                <td class="fw-bold text-end p-1">FILTER AIR DRYER</td>
+                            </tr><tr>
+                                <td class="w-150px p-1">SKU</td>
+                                <td class="w-10px p-1">:</td>
+                                <td class="fw-bold text-end p-1">CI BO</td>
+                            </tr><tr>
+                                <td class="w-150px p-1">Status</td>
+                                <td class="w-10px p-1">:</td>
+                                <td class="fw-bold text-end p-1">NONE</td>
+                            </tr>
+                                      <!-- and so on... -->
+                                  </tbody>
+                              </table>
+                              </div>
+                            </article>
+                            <article class="card">
+                              <img src="images/dieselone-outline.png" alt="Sample photo">
+                              <div class="text">
+                                <h3>Seamlessly visualize quality</h3>
+                                <p>Collaboratively administrate empowered markets via plug-and-play networks.</p>
+                                <button>Here's why</button>
+                              </div>
+                            </article>
+                            </main>
+                          <main class="cards">
+                            <article class="card">
+                              <img src="images/dieselone-outline.png" alt="Sample photo">
+                              <div class="text">
+                                <h3>Seamlessly visualize quality</h3>
+                                <p>Collaboratively administrate empowered markets via plug-and-play networks.</p>
+                                <button>Here's why</button>
+                              </div>
+                            </article>
+                            <article class="card">
+                              <img src="images/dieselone-outline.png" alt="Sample photo">
+                              <div class="text">
+                                <h3>Completely Synergize</h3>
+                                <p>Dramatically engage seamlessly visualize quality intellectual capital without superior collaboration and idea-sharing.</p>
+                                <button>Here's how</button>
+                              </div>
+                            </article>
+                          <main class="cards">
+                            <article class="card">
+                              <img src="images/dieselone-outline.png" alt="Sample photo">
+                              <div class="text">
+                                <h3>Seamlessly visualize quality</h3>
+                                <p>Collaboratively administrate empowered markets via plug-and-play networks.</p>
+                                <button>Here's why</button>
+                              </div>
+                            </article>
+                            <article class="card">
+                              <img src="images/dieselone-outline.png" alt="Sample photo">
+                              <div class="text">
+                                <h3>Completely Synergize</h3>
+                                <p>Dramatically engage seamlessly visualize quality intellectual capital without superior collaboration and idea-sharing.</p>
+                                <button>Here's how</button>
+                              </div>
+                            </article>
+                            
+                          </main>
+
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+    
+    
+    
+    </body>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    
+    <script>
+        function closeModal(modal) {
+            modal.removeClass('active');
+        }
+    
+        function openModal(modal) {
+            modal.addClass('active');
+        }
+    
+        $('*[open-modal="true"]').click(function () {
+            var modal = $(this).attr('modal-id');
+            openModal($(`.modal#${modal}`));
+        });
+    
+        $('.modal').click(function (e) {
+            var clickTarget = $(e.target);
+            if (clickTarget.attr('class') == 'inner_modal') {
+                closeModal(clickTarget.closest('.modal'));
+            }
+        });
+    </script>
+    
+    
+    </html>
